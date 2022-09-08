@@ -72,14 +72,3 @@ def rebalancer(initial_cash: float, prices_dict: dict) \
 
     return df, cash_after_initial_allocation, \
            current_portfolio_return_marked_to_market
-
-
-initial_cash = 9000
-prices_dict = {
-    'Share Price': [2, 5.411, 98.52, 214.95, 65.68, 27.94,
-                    134.69],
-    'Current Price': [40, 6, 100, 220, 70, 30, 120]
-}
-
-a, b, c = rebalancer(initial_cash, prices_dict)
-
