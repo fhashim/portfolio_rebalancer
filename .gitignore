@@ -1,0 +1,5 @@
+# Remove virtual enviroment
+venv
+
+# Remove Pycharm
+.idea
