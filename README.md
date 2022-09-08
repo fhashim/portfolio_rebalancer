@@ -1,4 +1,4 @@
-##Portfolio Rebalancer
+## Portfolio Rebalancer
 
 - User Input
     - `initial_cash`: Scalar value must be float or convertible to
